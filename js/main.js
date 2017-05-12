@@ -16,7 +16,10 @@ $('#myCarousel').on('slid.bs.carousel', function () {
 			"color": "#000",
 			"font-weight": "600",
 			"margin-bottom": "15px"
-		})	
+		});
+		$(".icon-bar").css({
+			"background-color": "#271435"
+		});	
 	}
 	if ($("#second_item").hasClass("active")) {
 		$(".main").css({
@@ -35,6 +38,9 @@ $('#myCarousel').on('slid.bs.carousel', function () {
 			"margin-left": "40px",
 			"text-transform":"uppercase",
 			"font-family":"arial"
-		})	
+		});
+		$(".icon-bar").css({
+			"background-color": "white"
+		});	
 	}
 });

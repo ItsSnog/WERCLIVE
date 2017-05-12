@@ -62,11 +62,13 @@
 	margin-left: 40px;
 	padding: 10px 85px;
 	color: white;
+	transition: .5s;
 }
 #second_item .btn-slide2:hover {
 	border: none;
 	color: #ff2e54;
 	background-color: white;
+	transition: .5s;
 }
 #second_item .btn-slide2:active {
 	border: 1px solid white;
